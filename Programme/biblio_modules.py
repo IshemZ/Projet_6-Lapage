@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+
+import pyarrow
 import matplotlib.pyplot as plt
 import scipy
 import sklearn
@@ -8,6 +10,19 @@ from datetime import datetime
 
 
 #Librairie de modules fonctionnelle
+
+
+"""SPLIT une colonne en 2 en utilisant un espace dans la cellule
+
+df = ton dataframe
+new_col1 = contiendra les element avant l'espace
+new_col2 = contiendra les element après l'espace
+target_col = la colonne que tu veux couper en deux
+
+"""
+def split_column_using_space(df, new_col1, new_col2, target_col):
+    df[['new_col1', 'new_col2']] = df['target_col'].str.split(expand=True)
+    return df
 
 
 """Charger et afficher un nouveau fichier ".csv"
