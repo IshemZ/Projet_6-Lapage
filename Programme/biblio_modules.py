@@ -21,7 +21,7 @@ target_col = la colonne que tu veux couper en deux
 
 """
 def split_column_using_space(df, new_col1, new_col2, target_col):
-    df[['new_col1', 'new_col2']] = df['target_col'].str.split(expand=True)
+    df[[new_col1, new_col2]] = df[target_col].str.split(expand=True)
     return df
 
 
