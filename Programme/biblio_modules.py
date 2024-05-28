@@ -62,10 +62,23 @@ column_name     = la colonne que l'on souhaite convertir
 format          = None
 
 """
-def convert_column_to_datetime(df, new_col, column_name, format=None):
+def convert_column_to_datetime(df, column_name, format=None):
     df
-    df[new_col] = pd.to_datetime(df[column_name],format=format, errors='')
+    pd.to_datetime(df[column_name],format=format)
     return df
+
+
+"""Convertir une colonne dans un df en datetime
+
+module qui permet de convertir une colonne d'un df en datetime
+
+df              = nom du dataframe ou les statistiques sont souhaité
+column_name     = la colonne que l'on souhaite convertir
+
+"""
+def convert_column_to_date_only_Ymd(df, column_name):
+    x = pd.to_datetime(df[column_name], format="%Y-%m-%d")
+    return x
 
 
 """ génère une colonne d'occurance des valeurs d'un colonnes
@@ -77,7 +90,7 @@ df              = le dataframe analysé
 col             = la colonne que l'on souhaite analyser
 
 """
-def colonne_occurance_valeurs(new_df, df, col):
-    new_df = df[[col]].value_counts(normalize=True)
-    new_df.to_frame().reset_index(drop=False).sort_values(by='proportion', ascending=False)
-    return
+def colonne_occurance_valeurs(df, col):
+    x = df[[col]].value_counts(normalize=True)
+    x.to_frame().reset_index(drop=False).sort_values(by='proportion', ascending=False)
+    return x
