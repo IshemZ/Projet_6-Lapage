@@ -1,9 +1,9 @@
-#Analyse des données de vente en ligne pour Lapage
+# Analyse des données de vente en ligne pour Lapage
 
 Introduction
 Lapage, une librairie physique à succès, a ouvert un site de vente en ligne il y a deux ans. L'objectif de cette analyse est de faire le point sur les indicateurs clés de l'entreprise afin d'optimiser sa stratégie commerciale.
 
-##Partie 1 : Analyse des indicateurs de vente
+## Partie 1 : Analyse des indicateurs de vente
 
 Indicateurs et graphiques sur le chiffre d'affaires :
 - Évolution dans le temps
@@ -20,7 +20,7 @@ Livrables:
 - Analyse des tendances et des modèles identifiés
 - Recommandations pour améliorer les performances de vente
 
-##Partie 2 : Analyse du comportement client
+## Partie 2 : Analyse du comportement client
 
 Étude des corrélations entre :
 - Genre du client et catégories de livres achetées
@@ -29,13 +29,13 @@ Livrables:
 - Âge du client et panier moyen
 - Âge du client et catégorie de livres achetés
 
-###Livrables:
+### Livrables:
 Rapport présentant les corrélations analysées
 Visualisations des corrélations significatives
 Interprétation des résultats et identification des segments clients
 Recommandations pour cibler les clients plus efficacement
 
-###Méthodologie
+### Méthodologie
 Collecte et nettoyage des données:
 Extraction des données de vente et des informations clients de la base de données fournie
 Vérification de la qualité et du traitement des données manquantes ou incohérentes
@@ -52,11 +52,11 @@ Formulation de recommandations concrètes basées sur les analyses
 Proposition d'actions pour améliorer les performances de vente et la satisfaction client
 
 
-###Ressources
+### Ressources
 Base de données des ventes en ligne de Lapage
 Logiciels d'analyse de données (Tableau, Power BI, etc.) ?
 
-###Conclusion
+### Conclusion
 Cette analyse des données permettra à Lapage de mieux comprendre ses clients et d'optimiser sa stratégie de vente en ligne. Les résultats fourniront des informations précieuses pour cibler les clients plus efficacement, développer de nouvelles offres et améliorer la rentabilité de l'entreprise.
 
 Prochaines étapes
