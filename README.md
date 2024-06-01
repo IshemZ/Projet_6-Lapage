@@ -67,3 +67,13 @@ Prochaines étapes
 
 Note:
 Ce compte rendu fournit un aperçu général de la méthodologie et des livrables. Le détail de l'analyse et les résultats spécifiques dépendront des données disponibles et des questions précises de l'équipe marketing.
+
+
+### Gérer la problèmatique des timestamp :
+
+- Première timestamp enregistrer le 1er mars 2021
+- Je dois vérifier quelle heure est le temps standard en france
+- D'après mes recherche, c'est l'heure d'hiver qui est la bonne (Dernier dimanche d'octobre -> dernier dimanche de mars)
+- Comme le premier enregistrement du site à lieu le 1er mars 2021, c'est bien un horaire standard
+- Je dois d'abord séparé en 2 dataframe les enregistrements d'hiver et d'été 
+- Je dois trouver le moment du passage de UTC+1 vers UTC+2 le 28 mars 2021
