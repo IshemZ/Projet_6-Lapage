@@ -1,12 +1,5 @@
 import pandas as pd
-import numpy as np
 
-import pyarrow
-import matplotlib.pyplot as plt
-import scipy
-import sklearn
-import timeit
-from datetime import datetime 
 
 
 #Librairie de modules fonctionnelle
