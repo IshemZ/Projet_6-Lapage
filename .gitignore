@@ -1,6 +1,7 @@
-venv6
+venv
 .DS_Store
-__pycache__
+Programme/__pycache__
 Folder
 Test
 .vscode
+Programme/__pycache__/biblio_modules.cpython-311.pyc
